@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Next
+.next/
+
+# Node
+node_modules/
+
+# Env
+.env
+.env.local
+
+# Baileys (muy importante)
+baileys_auth/
+
+# DB local
+prisma/dev.db
+
+# Uploads locales (opcional, si no querés llenar el repo de imágenes)
+public/uploads/
